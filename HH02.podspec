@@ -30,9 +30,9 @@ Pod::Spec.new do |s|
 
   s.source_files = 'Classes/**/*'
 
-  # s.resource_bundles = {
-  #   'HH02' => ['HH02/Assets/*.png']
-  # }
+   s.resource_bundles = {
+     'HH02' => ['Assets/**/*']
+   }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
