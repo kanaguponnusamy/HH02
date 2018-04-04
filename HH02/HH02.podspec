@@ -18,11 +18,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'HH02 components for papertrell sample trying before original'
 
-  s.homepage         = 'https://github.com/kanaguponnusamy/HH02.git'
+  s.homepage         = 'https://github.com/kanaguponnusamy/HH02'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'KanagarajPonnusamy' => 'kanagupbk@gmail.com' }
-  s.source           = { :git => 'https://github.com/KanagarajPonnusamy/HH02.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/kanaguponnusamy/HH02.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
