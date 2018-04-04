@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'HH02'
   s.version          = '0.1.0'
-  s.summary          = 'HH02 components for papertrell sample trying before original'
+  s.summary          = 'HH02 summary for papretell component'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -19,11 +19,11 @@ Pod::Spec.new do |s|
 
   s.description      = 'HH02 components for papertrell sample trying before original'
 
-  s.homepage         = 'https://github.com/KanagarajPonnusamy/HH02'
+  s.homepage         = 'https://github.com/kanaguponnusamy/HH02'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'KanagarajPonnusamy' => 'kanagupbk@gmail.com' }
-  s.source           = { :git => 'https://github.com/KanagarajPonnusamy/HH02.git', :tag => s.version.to_s }
+  s.author           = { 'kanaguponnusamy' => 'kanaguponnusamy@gmail.com' }
+  s.source           = { :git => 'https://github.com/kanaguponnusamy/HH02.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
