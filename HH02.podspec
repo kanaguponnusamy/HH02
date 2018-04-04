@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Classes/**/*.h'
 
    s.resource_bundles = {
-     'HH02' => ['Assets/**/*', 'Assets/**/*.xib']
+     'HH02' => ['Assets/**/*', 'Classes/**/*.xib']
    }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
